@@ -147,7 +147,7 @@ export default function LandingPage() {
               className="mb-16 text-center"
             >
               <h1 className="font-dancing text-4xl font-bold text-amber-100 md:text-6xl">
-                <TypewriterEffect text="hello.. this is Abin ,welcome to my 📜.." />
+                <TypewriterEffect text="hello.. this is Abin ,welcome to my 📜" />
               </h1>
             </motion.div>
           )}
