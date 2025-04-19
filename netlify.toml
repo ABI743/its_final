@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  NEXT_PUBLIC_FIREBASE_API_KEY = "AIzaSyDzcUoAeNCzCCgtW4xhta1FhCgDUNw-2zM"
+  NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN = "treasured2scribles.firebaseapp.com"
+  NEXT_PUBLIC_FIREBASE_PROJECT_ID = "treasured2scribles"
+  NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET = "treasured2scribles.firebasestorage.app"
+  NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID = "350241434332"
+  NEXT_PUBLIC_FIREBASE_APP_ID = "1:350241434332:web:9c722d95881808da196219"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
